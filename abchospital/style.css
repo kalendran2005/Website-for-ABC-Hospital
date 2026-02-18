@@ -1,0 +1,296 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0070cd;
+    position: relative;
+}
+
+/* Logo styling (aligned to the left) */
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 75px; /* Adjust logo size as needed */
+    height: auto;
+}
+
+/* Centered Navbar styling */
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+
+
+.banner{
+    background-image: url(img/home.jpg);
+    width: 100%;
+    height: 875px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+}
+
+.banner-text{
+    font-size: 5rem;
+    background-color: rgba(226, 218, 218, 0.281);
+    text-align: center;
+    color: #0070cd;
+    padding: 10px 20px;
+    margin-top: 200px;
+}
+
+
+.text-head{
+    text-align: center;
+    font-size: 3rem;
+    color: #0070cd;
+}
+
+.text{
+    font-size: 1.1rem;
+    text-align: justify;
+    color: rgb(29, 28, 28);
+}
+
+.slide-img{
+    height: 350px;
+}
+
+.place1{
+    text-align: center;
+    font-size: 3rem;
+    color: black!important;
+}
+
+
+
+.slide-img {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    width: 300%; /* Width = 100% * Number of Slides */
+    animation: slideAnimation 15s infinite; /* Adjust timing as needed */
+  }
+  
+  .slides img {
+    width: 100%;
+    height: auto;
+  }
+
+  .ab{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(53, 51, 51);
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.latest-news {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.latest-news h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.latest-news p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.news-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+}
+
+.news-card h3 {
+    font-size: 1.5rem;
+    margin: 15px;
+    color: #333;
+}
+
+.news-card p {
+    font-size: 0.9rem;
+    color: #666;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.news-card a {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.news-card a:hover {
+    color: #0056b3;
+}
+
+.news-card img:hover{
+    border-radius: 5px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.contact-page {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 40px;
+}
+
+.contact-logo {
+    text-align: center;
+    max-width: 300px;
+}
+
+.contact-logo img {
+    width: 80px; /* Adjust size as needed */
+    margin-bottom: 15px;
+}
+
+.contact-logo p {
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+.contact-info {
+    max-width: 300px;
+    color: #009688;
+}
+
+.contact-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #009688;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    text-align: center;
+    max-width: 200px;
+}
+
+.social-links p {
+    font-weight: bold;
+    color: #009688;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    display: block;
+    font-size: 0.9rem;
+    color: #ffffff;
+    background-color: #009688;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #00796b;
+}
+
+
